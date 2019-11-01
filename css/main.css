@@ -9,20 +9,26 @@ html {
 }
 
 img {
-  width: 100px;
+  width: 25%;
+  display: block;
 }
 
-h1 {
+h2 {
   font-weight: bold;
   font-size: 2rem;
   text-align: center;
 }
 
-div {
+section {
   display: flex;
   align-items: stretch;
   justify-content: center;
   margin: 0 auto 1.5rem;
+  flex-direction: row;
+}
+
+body {
+  margin: 0;
 }
 
 p {
@@ -30,16 +36,19 @@ p {
   font-size: 1rem;
 }
 
-h2 {
+h3 {
   font-weight: bold;
   font-size: 1rem;
 }
 
 .btn {
-  padding: 1.5rem;
+  padding: .4em .75em .3em;
   background-color: #333;
-  border-radius: 1.5rem;
+  border-radius: 8px;
   color: #f2f2f2;
+  text-decoration: none;
+  display: flex;
+  flex-grow: 1;
 }
 
 .first {
@@ -58,6 +67,14 @@ h2 {
   background-color: #999;
 }
 
-small {
+cite {
   font-style: italic;
+}
+
+.btn:hover {
+
+}
+
+.btn-small {
+
 }
