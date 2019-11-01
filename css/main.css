@@ -9,22 +9,36 @@ html {
 }
 
 img {
-  width: 25%;
+  width: 100%;
   display: block;
+}
+
+.card img {
+  margin: 0 auto 1.5rem;
+  width: 100px;
 }
 
 h2 {
   font-weight: bold;
   font-size: 2rem;
   text-align: center;
+  margin: 0;
+  padding: 1.5rem 0;
 }
 
-section {
+.big {
   display: flex;
-  align-items: stretch;
-  justify-content: center;
-  margin: 0 auto 1.5rem;
-  flex-direction: row;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: .75rem;
+  border-left: 1px solid #000;
 }
 
 body {
@@ -34,21 +48,26 @@ body {
 p {
   font-weight: normal;
   font-size: 1rem;
+  padding-left: .75rem;
+  flex-grow: 1;
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: .75em;
 }
 
 h3 {
   font-weight: bold;
   font-size: 1rem;
+  margin: 0;
+  padding-left: .75rem;
 }
 
 .btn {
-  padding: .4em .75em .3em;
+  padding: .4em .75em .6em;
   background-color: #333;
   border-radius: 8px;
   color: #f2f2f2;
   text-decoration: none;
-  display: flex;
-  flex-grow: 1;
 }
 
 .first {
@@ -69,12 +88,15 @@ h3 {
 
 cite {
   font-style: italic;
+  margin: 0;
+  padding-left: .75rem;
+  font-size: .875rem;
 }
 
 .btn:hover {
-
+  color: black;
 }
 
 .btn-small {
-
+  font-size: .875rem;
 }
